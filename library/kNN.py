@@ -109,6 +109,7 @@ def datingClassTest():
 		if (classifierResult != datingLabels[i]): errorCount += 1.0
 	print("the total error rate is: %f" % (errorCount / float(numTestVecs)))
 
+
 def classifyPerson():
 	resultList = ['not at all', 'in small doses', 'in large doses']
 	percentTats = float(input(\
